@@ -1,4 +1,7 @@
 
+/*
+ * Representation of one trip as teaser
+ */
 export default function Teaser(x) {
     function handleClick() {
         window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1","_self")
@@ -27,7 +30,10 @@ export default function Teaser(x) {
     )
 }
 
-
+/*
+ * Draws n yellow stars according to trip data "stars"
+ * Draws 5-n grey stars according to trip data "stars"
+ */
 function Stars(x) {
     const yellowStars = x.count;
     const greyStars = (5 - x.count);

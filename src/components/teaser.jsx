@@ -9,9 +9,11 @@ export default function Teaser(x) {
 
     return (
         <div key={x.teaserObj.id} className="bg-slate-white shadow-xl rounded-xl flex flex-col">
-            <span className="bg-red-400 text-white text-s font-bold mx-auto -mb-10 me-2 px-3 py-0.5 rounded-full z-10">{x.teaserObj.badge}</span>
-            <img src={x.teaserObj.imgsrc} alt={x.teaserObj.imgalt} className="rounded-t-xl"/>
-            <div className="w-5/6 mx-auto mt-0 mb-3">
+            <div className="flex flex-col">
+                <span className="bg-red-400 text-white text-s font-bold mx-auto -mb-10 me-2 px-3 py-0.5 rounded-full z-10">{x.teaserObj.badge}</span>
+                <img src={x.teaserObj.imgsrc} alt={x.teaserObj.imgalt} className="rounded-t-xl"/>
+            </div>
+            <div className="w-5/6 mx-auto mt-0 mb-0">
                 <p className="text-xl font-bold">{x.teaserObj.name}</p>
                 <Stars count={x.teaserObj.stars}/>
                 <p className="mt-1">{x.teaserObj.des}</p>
@@ -21,8 +23,11 @@ export default function Teaser(x) {
                         <li key={index} className="text-left">{data}</li>
                     ))}
                 </ul>
+            </div>
+            <div className="align-bottom md:flex md:flex-grow md:flex-col justify-end mb-3 mx-3">
                 <p className="mt-3 font-bold">ab {x.teaserObj.startingPrice}€ p.p.</p>
-                <button className="mt-2 text-xl font-bold bg-cyan-900 text-white py-1 rounded-xl px-8" onClick={handleClick}>
+                <button className="mt-2 text-xl font-bold bg-cyan-900 text-white py-1 rounded-xl px-8 mx-auto"
+                        onClick={handleClick}>
                     Jetzt Buchen
                 </button>
             </div>
@@ -42,7 +47,7 @@ function Stars(x) {
             <div className="flex items-center">
                 {/*Yellow Stars*/}
                 {
-                    [...Array(yellowStars)].map((e,i) => (
+                    [...Array(yellowStars)].map((e, i) => (
                         <svg className="w-4 h-4 text-yellow-300 ms-1" key={i} aria-hidden="true"
                              xmlns="http://www.w3.org/2000/svg"
                              fill="currentColor" viewBox="0 0 22 20">

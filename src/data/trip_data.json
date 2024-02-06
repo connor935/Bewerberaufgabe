@@ -4,41 +4,44 @@
     "name": "Fünf Sterne Hotel am Mittelmeer",
     "des": "5 Nächte im Fünf Sterne Hotel inkl. Flug und Vollpension",
     "imgsrc": "src/assets/valencia.jpg",
+    "imgalt": "Innenstadt von Valencia",
     "locale": {
       "country": "Spanien",
       "province": "Valencia",
       "city": "Valencia"
     },
-    "usp-list": ["Adults only", "Economy-Plus", "Transfer vom Flughafen zum Hotel", "Überteuertes und langsames W-Lan"],
+    "uspList": ["Adults only", "Economy-Plus", "Transfer vom Flughafen zum Hotel", "Überteuertes und langsames W-Lan"],
     "stars": 5,
-    "starting-price": 1299
+    "startingPrice": 1299
   },
   {
     "id": "ES_Mal_69420",
     "name": "Partyurlaub am Ballermann",
     "des": "7 Nächte im Drei Sterne Hotel inkl. Flug und Frühstück",
     "imgsrc": "src/assets/palma.jpg",
+    "imgalt": "Kathedrale von Palma",
     "locale": {
       "country": "Spanien",
       "province": "Mallorca",
       "city": "Palma"
     },
-    "usp-list": ["Adults only", "5 Minuten Fussweg zum Bierkönig", "Transfer vom Flughafen zum Hotel", "Deutsches Frühstück", "Pool direkt am Hotel"],
+    "uspList": ["Adults only", "5 Minuten Fussweg zum Bierkönig", "Transfer vom Flughafen zum Hotel", "Deutsches Frühstück", "Pool direkt am Hotel"],
     "stars": 3,
-    "starting-price": 499
+    "startingPrice": 499
   },
   {
     "id": "DE_Bay_81394",
     "name": "Vier Sterne Luxus im Winterparadis",
     "des": "5 Nächte im Vier Sterne Hotel inkl. Skipass und Vollpension",
     "imgsrc": "src/assets/allgaeu.jpg",
+    "imgalt": "Blick auf Verschneite Berge",
     "locale": {
       "country": "Deutschland",
       "province": "Bayern - Allgäu",
       "city": "Oberstdorf"
     },
-    "usp-list": ["Skipass", "Lift-Taxi", "Fantastisches Frühstück", "Gala Dinner", "Sauna"],
+    "uspList": ["Skipass", "Lift-Taxi", "Fantastisches Frühstück", "Gala Dinner", "Sauna"],
     "stars": 4,
-    "starting-price": 1599
+    "startingPrice": 1599
   }
 ]

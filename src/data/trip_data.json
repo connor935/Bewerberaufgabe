@@ -12,7 +12,8 @@
     },
     "uspList": ["Adults only", "Economy-Plus", "Transfer vom Flughafen zum Hotel", "Überteuertes und langsames W-Lan"],
     "stars": 5,
-    "startingPrice": 1299
+    "startingPrice": 1299,
+    "badge": "Begrenztes Angebot!"
   },
   {
     "id": "ES_Mal_69420",
@@ -27,7 +28,8 @@
     },
     "uspList": ["Adults only", "5 Minuten Fussweg zum Bierkönig", "Transfer vom Flughafen zum Hotel", "Deutsches Frühstück", "Pool direkt am Hotel"],
     "stars": 3,
-    "startingPrice": 499
+    "startingPrice": 499,
+    "badge": "Adults only!"
   },
   {
     "id": "DE_Bay_81394",
@@ -42,6 +44,7 @@
     },
     "uspList": ["Skipass", "Lift-Taxi", "Fantastisches Frühstück", "Gala Dinner", "Sauna"],
     "stars": 4,
-    "startingPrice": 1599
+    "startingPrice": 1599,
+    "badge": "Winter Deal!"
   }
 ]
